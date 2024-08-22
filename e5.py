@@ -7,7 +7,7 @@ while True:
     if valor >= 500:
         print("Você ganhou 20% de desconto. O valor da sua compra com o desconto é: R$ " + str(valor*0.8))
     elif valor >= 250:
-        print("Você ganou 10% de desconto. O valor da sua compra com desconto é: R$ " + str(valor*0.9))
+        print("Você ganhou 10% de desconto. O valor da sua compra com desconto é: R$ " + str(valor*0.9))
     else:
         print("Você não ganou nenhum desconto. O valor da sua compra é: R$ "+ str(valor))
 
