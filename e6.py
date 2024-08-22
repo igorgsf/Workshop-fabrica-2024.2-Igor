@@ -14,10 +14,10 @@ while True:
         print("Legal te ter aqui de volta, " + nome + ", você terá 30% de desconto na sua mensalidade, que será o valor de: R$" + str(mensalidade*0.7) + " reais")
         
     elif p2 == 'sim':
-        print("Legal que tenha nos escolhido para fazer parte da sua jornada de ensino, " + nome + ", por isso, você terá 35% de desconto em sua mensalidade, que será: " + str(mensalidade*0.65))
+        print("Legal que tenha nos escolhido para fazer parte da sua jornada de ensino, " + nome + ", por isso, você terá 35% de desconto em sua mensalidade, que será: R$" + str(mensalidade*0.65) + " reais")
 
     else:
-        print("Que bom que nos escolheu! " +  nome + ", você terá 15% de desconto em sua mensalidade, que será: R$ " + str(mensalidade*0.85))
+        print("Que bom que nos escolheu! " +  nome + ", você terá 15% de desconto em sua mensalidade, que será: R$ " + str(mensalidade*0.85) + " reais")
     
     resposta = input("Você deseja calcular outro valor? (sim/não) ").strip().lower() 
   
